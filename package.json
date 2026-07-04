@@ -1,0 +1,23 @@
+{
+  "name": "web-app-template",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "backbone": "^1.6.1",
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "sakura.css": "^1.5.1"
+  },
+  "scripts": {
+    "serve": "bun run --hot src/js/server.js",
+    "build": "bun build.js"
+  }
+}
