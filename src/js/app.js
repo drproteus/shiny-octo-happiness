@@ -12,7 +12,7 @@ $(() => {
 
   const geometry = new THREE.BoxGeometry(2, 2, 2);
   const loader = new THREE.TextureLoader();
-  const texture = loader.load("/images/photo2.jpg");
+  const texture = loader.load("images/photo2.jpg");
   texture.colorSpace = THREE.SRGBColorSpace;
   const material = new THREE.MeshBasicMaterial({
     map: texture,
